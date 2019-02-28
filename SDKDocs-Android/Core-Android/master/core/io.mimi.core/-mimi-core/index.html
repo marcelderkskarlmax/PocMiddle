@@ -1,0 +1,85 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>MimiCore - core</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">core</a>&nbsp;/&nbsp;<a href="../index.html">io.mimi.core</a>&nbsp;/&nbsp;<a href="./index.html">MimiCore</a><br/>
+<br/>
+<h1>MimiCore</h1>
+<code><span class="keyword">object </span><span class="identifier">MimiCore</span></code>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="auth-controller.html">authController</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">authController</span><span class="symbol">: </span><a href="../../io.mimi.core.controller/-auth-controller/index.html"><span class="identifier">AuthController</span></a></code>
+<p>Mimi controller which gives you access to the user authentication functionality.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="mimi-user.html">mimiUser</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">mimiUser</span><span class="symbol">: </span><a href="../../io.mimi.core.model/-mimi-user/index.html"><span class="identifier">MimiUser</span></a><span class="symbol">?</span></code>
+<p>The user currently logged in to the api.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="tests-controller.html">testsController</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">testsController</span><span class="symbol">: </span><a href="../../io.mimi.core.controller/-tests-controller/index.html"><span class="identifier">TestsController</span></a></code>
+<p>Mimi controller which gives you access to the hearing tests functionality.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="user-controller.html">userController</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">userController</span><span class="symbol">: </span><a href="../../io.mimi.core.controller/-user-controller/index.html"><span class="identifier">UserController</span></a></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="dispose.html">dispose</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">dispose</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Call <a href="dispose.html">dispose</a> to ensure that all resources are properly disposed
+(e.g. canceling pending network requests).</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="get-sdk-version-number.html">getSdkVersionNumber</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">getSdkVersionNumber</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code>
+<p>Provide the version number of the MimiCore SDK</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="start.html">start</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">start</span><span class="symbol">(</span><span class="identifier" id="io.mimi.core.MimiCore$start(android.content.Context, kotlin.String, kotlin.String)/context">context</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/content/Context.html"><span class="identifier">Context</span></a><span class="symbol">, </span><span class="identifier" id="io.mimi.core.MimiCore$start(android.content.Context, kotlin.String, kotlin.String)/clientId">clientId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="io.mimi.core.MimiCore$start(android.content.Context, kotlin.String, kotlin.String)/clientSecret">clientSecret</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Set up MimiCore for use with your client.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

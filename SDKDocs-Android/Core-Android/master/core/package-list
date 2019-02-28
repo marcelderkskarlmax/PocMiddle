@@ -1,0 +1,9 @@
+$dokka.format:html
+$dokka.linkExtension:html
+
+io.mimi.core
+io.mimi.core.api
+io.mimi.core.api.tests
+io.mimi.core.controller
+io.mimi.core.model
+io.mimi.core.model.tests
